@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aplicación Buen Tiempo</title>
+    <link rel="stylesheet" href="stylesBuenTiempo.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Aplicación Buen Tiempo</h1>
+        <form id="weather-form">
+            <input type="text" id="ciudad" placeholder="Ingresa una ciudad">
+            <button type="submit">Buscar</button>
+        </form>
+        <!--Seccion para mostrar el clima-->
+        <div id="weather-result" class="hidden">
+            <h2 id="nombre-ciudad"></h2>
+            <p id="temeratura"></p>
+            <p id="descripcion"></p>
+        </div>
+    </div>
+    <script src="scriptBuenTiempo.js"></script>
 </body>
 </html>

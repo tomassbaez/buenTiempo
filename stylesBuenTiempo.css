@@ -61,6 +61,6 @@ form button {
     margin-bottom: 10px;
 }
 
-weather-result p {
+#weather-result p {
     margin: 5px 0;
 }

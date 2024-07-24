@@ -7,7 +7,7 @@ const temperatureElement = document.getElementById('temperatura');
 const descriptionElement = document.getElementById('descripcion');
 
 //Clave api de openWeatherMap
-const apiKey = '27c4bed6d0d4334dac1e466558025ecf'
+const apiKey = 'TU_CLAVE'
 
 //EventListener al formulario para controlar el vento de 'enviar'
 weatherForm.addEventListener('submit', function(event) {
